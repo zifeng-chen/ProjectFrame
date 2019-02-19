@@ -8,6 +8,7 @@
 
 import UIKit
 import CYLTabBarController
+import EFNavigationBar
 import IQKeyboardManagerSwift
 
 @UIApplicationMain
@@ -19,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // tabbar中间圆点
-        CYLPlusButtonSubclass.register()
+//        CYLPlusButtonSubclassing.register()
+        
         
         // tabbar
         let mainTabBarVc = MainTabBarViewController(viewControllers: self.viewControllers(), tabBarItemsAttributes: self.tabBarItemsAttributesForController())
@@ -72,15 +74,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setNavBarAppearence()
     {
         // 设置导航栏默认的背景颜色
-        WRNavigationBar.defaultNavBarBarTintColor = MainColor
+        EFNavigationBar.defaultNavBarBarTintColor = MainColor
         // 设置导航栏所有按钮的默认颜色
-        WRNavigationBar.defaultNavBarTintColor = .black
+        EFNavigationBar.defaultNavBarTintColor = .black
         // 设置导航栏标题默认颜色
-        WRNavigationBar.defaultNavBarTitleColor = .white
+        EFNavigationBar.defaultNavBarTitleColor = .white
         // 统一设置状态栏样式
-        WRNavigationBar.defaultStatusBarStyle = .default
+        EFNavigationBar.defaultStatusBarStyle = .default
         // 如果需要设置导航栏底部分割线隐藏，可以在这里统一设置
-        WRNavigationBar.defaultShadowImageHidden = true
+        EFNavigationBar.defaultShadowImageHidden = true
         //        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
     }
     

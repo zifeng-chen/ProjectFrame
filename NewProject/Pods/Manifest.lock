@@ -1,9 +1,10 @@
 PODS:
-  - Alamofire (4.7.3)
-  - CYLTabBarController (1.17.20)
+  - Alamofire (4.8.1)
+  - CYLTabBarController (1.17.22)
+  - EFNavigationBar (0.1.1)
   - IQKeyboardManagerSwift (6.2.0)
   - Kingfisher (4.10.1)
-  - ObjectMapper (3.3.0)
+  - ObjectMapper (3.4.2)
   - SnapKit (4.2.0)
   - SwiftyJSON (4.2.0)
   - SwiftyUserDefaults (3.0.1)
@@ -11,6 +12,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - CYLTabBarController
+  - EFNavigationBar
   - IQKeyboardManagerSwift
   - Kingfisher
   - ObjectMapper
@@ -22,6 +24,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - CYLTabBarController
+    - EFNavigationBar
     - IQKeyboardManagerSwift
     - Kingfisher
     - ObjectMapper
@@ -30,15 +33,16 @@ SPEC REPOS:
     - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  CYLTabBarController: 376fc15463c582cd5a24a7e9d46a578243bd5b12
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CYLTabBarController: 35784c2969383583d11cc56ff5abce078f19d94a
+  EFNavigationBar: fc5bfc5ba66cc463cc51020112a6143c90889bde
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
 
-PODFILE CHECKSUM: 701ab54742e7f0aed33adbbb3898f1156c218978
+PODFILE CHECKSUM: e0f622450bddb8b1e29ece3f755ab4132d74e73f
 
 COCOAPODS: 1.5.3

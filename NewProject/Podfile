@@ -13,6 +13,7 @@ target 'NewProject' do
   	pod 'SnapKit'                     # 自动布局
   	pod 'SwiftyUserDefaults'
   	#pod 'SwiftProgressHUD'
+    pod 'EFNavigationBar'
 	pod 'ObjectMapper'
 	pod 'Kingfisher'			      # 图片
 end

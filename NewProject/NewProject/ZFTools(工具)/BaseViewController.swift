@@ -8,10 +8,11 @@
 //  Github地址：https://github.com/wangrui460/WRNavigationBar_swift
 
 import UIKit
+import EFNavigationBar
 
 class BaseViewController: UIViewController
 {
-    lazy var navBar = WRCustomNavigationBar.CustomNavigationBar()
+    lazy var navBar = EFCustomNavigationBar.CustomNavigationBar()
     
     override func viewDidLoad()
     {
@@ -38,13 +39,13 @@ class BaseViewController: UIViewController
 //        navBar.titleLabelColor = .white
         
         // 设置自定义导航栏左右按钮字体颜色
-        navBar.wr_setTintColor(color: .white)
+        navBar.ef_setTintColor(color: .white)
         
         
         
         if self.navigationController?.children.count != 1 {
 //            navBar.wr_setLeftButton(title: "<<", titleColor: UIColor.white)
-            navBar.wr_setLeftButton(image: #imageLiteral(resourceName: "back"))
+            navBar.ef_setLeftButton(image: #imageLiteral(resourceName: "back"))
         }
     }
     

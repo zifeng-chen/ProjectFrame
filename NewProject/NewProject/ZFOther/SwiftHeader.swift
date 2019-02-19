@@ -9,6 +9,7 @@
 import UIKit
 import SwiftyJSON
 import SnapKit
+import EFNavigationBar
 import SwiftyUserDefaults
 
 let UIKeyWindow = UIApplication.shared.keyWindow
@@ -17,7 +18,7 @@ let NAVBAR_COLORCHANGE_POINT:CGFloat = IMAGE_HEIGHT - CGFloat(kNavBarBottom * 2)
 let IMAGE_HEIGHT:CGFloat = 260
 let SCROLL_DOWN_LIMIT:CGFloat = 100
 let LIMIT_OFFSET_Y:CGFloat = -(IMAGE_HEIGHT + SCROLL_DOWN_LIMIT)
-let kNavBarBottom = WRNavigationBar.navBarBottom()
+let kNavBarBottom = EFNavigationBar.navBarBottom()
 
 let kScreenHeight = UIScreen.main.bounds.height
 let kScreenWidth = UIScreen.main.bounds.width

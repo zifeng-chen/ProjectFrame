@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203CD3DF221C1ED2002465AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203CD3DE221C1ED2002465AD /* BaseViewController.swift */; };
 		2059074321903827002CE5CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059074221903827002CE5CA /* AppDelegate.swift */; };
 		2059074521903827002CE5CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059074421903827002CE5CA /* ViewController.swift */; };
 		2059074821903827002CE5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2059074621903827002CE5CA /* Main.storyboard */; };
@@ -18,19 +19,15 @@
 		2059076221904989002CE5CA /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059075C21904989002CE5CA /* BaseResponse.swift */; };
 		2059076321904989002CE5CA /* NetWorkHander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059075D21904989002CE5CA /* NetWorkHander.swift */; };
 		2059076421904989002CE5CA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059075E21904989002CE5CA /* Configuration.swift */; };
-		2059076A219049B3002CE5CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20590766219049B3002CE5CA /* BaseViewController.swift */; };
-		2059076B219049B3002CE5CA /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20590767219049B3002CE5CA /* WRNavigationBar.swift */; };
-		2059076C219049B3002CE5CA /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20590768219049B3002CE5CA /* WRCustomNavigationBar.swift */; };
-		2059076D219049B3002CE5CA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20590769219049B3002CE5CA /* BaseNavigationController.swift */; };
 		2059077821904D97002CE5CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059077721904D97002CE5CA /* HomeViewController.swift */; };
 		2059077A21904D9F002CE5CA /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059077921904D9F002CE5CA /* UserViewController.swift */; };
 		2059077C21904DF2002CE5CA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059077B21904DF2002CE5CA /* MainTabBarViewController.swift */; };
 		20590780219055E9002CE5CA /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059077F219055E9002CE5CA /* DemoViewController.swift */; };
-		205907822190561D002CE5CA /* CYLPlusButtonSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205907812190561D002CE5CA /* CYLPlusButtonSubclass.swift */; };
 		F48DD25E55CF3FC60D610235 /* Pods_NewProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D90C16E7C7398E7108649A /* Pods_NewProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203CD3DE221C1ED2002465AD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2059073F21903827002CE5CA /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2059074221903827002CE5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2059074421903827002CE5CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,15 +42,10 @@
 		2059075C21904989002CE5CA /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		2059075D21904989002CE5CA /* NetWorkHander.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkHander.swift; sourceTree = "<group>"; };
 		2059075E21904989002CE5CA /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		20590766219049B3002CE5CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		20590767219049B3002CE5CA /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
-		20590768219049B3002CE5CA /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
-		20590769219049B3002CE5CA /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		2059077721904D97002CE5CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2059077921904D9F002CE5CA /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		2059077B21904DF2002CE5CA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		2059077F219055E9002CE5CA /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
-		205907812190561D002CE5CA /* CYLPlusButtonSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLPlusButtonSubclass.swift; sourceTree = "<group>"; };
 		364B60DBF8DC14642B39F1AD /* Pods-NewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewProject/Pods-NewProject.release.xcconfig"; sourceTree = "<group>"; };
 		63D90C16E7C7398E7108649A /* Pods_NewProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E1543FD020DA3FA84BEF6F /* Pods-NewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewProject/Pods-NewProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +100,7 @@
 		2059075421903EBB002CE5CA /* ZFTools(工具) */ = {
 			isa = PBXGroup;
 			children = (
-				20590765219049B3002CE5CA /* WRNavigationBar */,
+				203CD3DE221C1ED2002465AD /* BaseViewController.swift */,
 			);
 			path = "ZFTools(工具)";
 			sourceTree = "<group>";
@@ -144,18 +136,6 @@
 				2059075E21904989002CE5CA /* Configuration.swift */,
 			);
 			path = NetWorkHandler;
-			sourceTree = "<group>";
-		};
-		20590765219049B3002CE5CA /* WRNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				20590766219049B3002CE5CA /* BaseViewController.swift */,
-				20590767219049B3002CE5CA /* WRNavigationBar.swift */,
-				20590768219049B3002CE5CA /* WRCustomNavigationBar.swift */,
-				20590769219049B3002CE5CA /* BaseNavigationController.swift */,
-				205907812190561D002CE5CA /* CYLPlusButtonSubclass.swift */,
-			);
-			path = WRNavigationBar;
 			sourceTree = "<group>";
 		};
 		2059076F21904D1A002CE5CA /* HomePage(首页) */ = {
@@ -325,6 +305,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NewProject/Pods-NewProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/EFNavigationBar/EFNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -336,6 +317,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -373,19 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203CD3DF221C1ED2002465AD /* BaseViewController.swift in Sources */,
 				2059077C21904DF2002CE5CA /* MainTabBarViewController.swift in Sources */,
-				2059076C219049B3002CE5CA /* WRCustomNavigationBar.swift in Sources */,
-				2059076B219049B3002CE5CA /* WRNavigationBar.swift in Sources */,
 				2059076321904989002CE5CA /* NetWorkHander.swift in Sources */,
 				2059076121904989002CE5CA /* BaseRequest.swift in Sources */,
 				2059076021904989002CE5CA /* ShareDataHandler.swift in Sources */,
 				2059075F21904989002CE5CA /* SwiftHeader.swift in Sources */,
 				20590780219055E9002CE5CA /* DemoViewController.swift in Sources */,
 				2059076221904989002CE5CA /* BaseResponse.swift in Sources */,
-				205907822190561D002CE5CA /* CYLPlusButtonSubclass.swift in Sources */,
 				2059077A21904D9F002CE5CA /* UserViewController.swift in Sources */,
-				2059076A219049B3002CE5CA /* BaseViewController.swift in Sources */,
-				2059076D219049B3002CE5CA /* BaseNavigationController.swift in Sources */,
 				2059074521903827002CE5CA /* ViewController.swift in Sources */,
 				2059076421904989002CE5CA /* Configuration.swift in Sources */,
 				2059077821904D97002CE5CA /* HomeViewController.swift in Sources */,
